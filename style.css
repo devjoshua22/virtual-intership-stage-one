@@ -1,0 +1,135 @@
+body{
+    color: #333;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    border: 1px solid#333;
+}
+#main-content{
+    margin-top: -21px;
+    max-width: 900px;
+    display: grid;
+    grid-template-rows:400px;
+    grid-template-columns: 400px 400px;
+    gap: 10px;
+}
+#slack-profile img{
+    margin: 25px;
+    height: 250px;
+    width: 300px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+#slack-profile p{
+    font-size: 35px;
+    font-weight: 700;
+    margin:0px 100px;
+}
+/* details @ time */
+#details {
+    margin: 20px 0px;
+}
+#details p{
+    text-decoration: underline;
+    font-size: 24px;
+}
+#details div{
+    padding: 5px;
+    font-size: 20px;
+}
+#details main{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* current time digital clock */
+#current-time {
+    position: absolute;
+    left: 750px;
+    top: 60px;
+}
+#current-time div{
+    display: grid;
+    grid-template-rows:8px;
+    grid-template-columns: 68px 70px;
+}
+
+#current-time span{
+    font-size: 12px;
+    margin-top: -20px;
+}
+/* responsiveness */
+@media screen and (max-width:560px){
+    body{
+        height: 800px;
+    }
+    header{
+        font-size: 40px;
+    }
+    #main-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #slack-profile p{
+        font-size: 29px;
+        font-weight: 700;
+        margin:0px 100px;
+        padding: 2px;
+    }
+    #details {
+        margin: 0px 0px 0px -180px;
+        height: 350px;
+        padding-right: 20px;
+        border-right: 1px solid #333;
+    
+    }
+    #details p {
+        font-size: 20px;
+    }
+    #details div{
+        padding: 5px;
+        font-size: 19px;
+    }
+    #details main{
+        font-size: 19px;
+        font-weight: 700;
+    }
+    #current-time {
+        position: absolute;
+        left: 310px;
+        top: 380px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
