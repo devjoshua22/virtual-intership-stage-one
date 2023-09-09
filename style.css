@@ -72,13 +72,19 @@ header{
         height: 800px;
     }
     header{
+        border: none;
         font-size: 40px;
+        margin-left: 80px;
     }
     #main-content{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        margin-left: -20px;
+    }
+    #slack-profile img{
+        margin-left: 100px;
     }
     #slack-profile p{
         font-size: 29px;
@@ -87,7 +93,6 @@ header{
         padding: 2px;
     }
     #details {
-        margin: 0px 0px 0px -180px;
         height: 350px;
         padding-right: 20px;
         border-right: 1px solid #333;
@@ -106,7 +111,7 @@ header{
     }
     #current-time {
         position: absolute;
-        left: 310px;
+        left: 390px;
         top: 380px;
         
     }
