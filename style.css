@@ -53,7 +53,7 @@ header{
 /* current time digital clock */
 #current-time {
     position: absolute;
-    left: 750px;
+    left: 780px;
     top: 60px;
 }
 #current-time div{
