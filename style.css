@@ -51,21 +51,9 @@ header{
 }
 
 /* current time digital clock */
-#current-time {
-    position: absolute;
-    left: 780px;
-    top: 60px;
-}
-#current-time div{
-    display: grid;
-    grid-template-rows:8px;
-    grid-template-columns: 68px 70px;
-}
 
-#current-time span{
-    font-size: 12px;
-    margin-top: -20px;
-}
+
+
 /* responsiveness */
 @media screen and (max-width:560px){
     body{
@@ -74,28 +62,26 @@ header{
     header{
         border: none;
         font-size: 40px;
-        margin-left: 80px;
+        margin-left: 40px;
     }
     #main-content{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        margin-left: -20px;
+        margin-left: -10px;
     }
     #slack-profile img{
-        margin-left: 100px;
+        margin-left: 40px;
     }
     #slack-profile p{
         font-size: 29px;
         font-weight: 700;
-        margin:0px 100px;
-        padding: 2px;
+        margin-left:30px;
     }
     #details {
         height: 350px;
         padding-right: 20px;
-        border-right: 1px solid #333;
     
     }
     #details p {
@@ -108,12 +94,6 @@ header{
     #details main{
         font-size: 19px;
         font-weight: 700;
-    }
-    #current-time {
-        position: absolute;
-        left: 390px;
-        top: 380px;
-        
     }
 }
 
