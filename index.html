@@ -10,27 +10,26 @@
 <body>
     <header>Dashboard</header>
     <div id="main-content">
-        
-        <div id="slack-profile">
+        <div id="slack-profile" data-testid="slackDisplayImage">
             <img src="IMG_20230405_180035_394~2.jpg" alt="Joshua okorosa">
-            <p> Joshua Okorosa</p>
+            <p data-testid="slackUserName"> Joshua Okorosa</p>
         </div>
         <div id="details">
             <div id="current-day">
                 <p> Current day of the week:</p>
-                <main id="current-day-of-the-week"></main>
+                <main id="current-day-of-the-week" data-testid="currentDayOfTheWeek"></main>
             </div>
             <div id="current-time">
-                <p> Current UTC  time:</p>
-                     <div id="millisecond"> </div>
+                <p> Current UTC time:</p>
+                <div id="millisecond" data-testid="currentUTCTime"></div>
             </div>
-            <div id="track">
+            <div id="track" data-testid="myTrack">
                 <p> Track:</p>
                 <main id="track-type">Front-end</main>
             </div>
             <div id="repo">
-                <p> Project git-hub repository link</p>
-                <a href="https://github.com/devjoshua22/virtual-intership-stage-one.git">Click here</a>
+                <p> Project GitHub repository link</p>
+                <a href="https://github.com/devjoshua22/virtual-intership-stage-one/tree/Fixed-UTC">Click here</a>
             </div>
         </div>
     </div>
